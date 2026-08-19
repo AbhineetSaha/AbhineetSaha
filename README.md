@@ -1,99 +1,96 @@
-<h1 align="center">Abhineet Saha</h1>
+# Abhineet Saha
 
-<p align="center">
-  <b>Software Engineer</b> — full-stack &amp; backend systems<br/>
-  B.Tech Computer Science &amp; Engineering, VIT-AP (2022–2026)<br/>
-  <sub>West Bengal, India</sub>
-</p>
+**Software Engineer** — full-stack & backend systems
 
-<p align="center">
-  <a href="https://abhineetsaha.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/abhineetsaha/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="https://leetcode.com/u/AbhineetSaha/"><b>LeetCode</b></a> &nbsp;·&nbsp;
-  <a href="https://pypi.org/project/pyxtrace/"><b>PyPI</b></a>
-</p>
+B.Tech Computer Science & Engineering, VIT-AP (2022–2026) · West Bengal, India
 
----
+[Portfolio](https://abhineetsaha.vercel.app) · [LinkedIn](https://linkedin.com/in/abhineetsaha/) · [LeetCode](https://leetcode.com/u/AbhineetSaha/) · [PyPI](https://pypi.org/project/pyxtrace/)
 
 ## About
 
 I build backend systems and developer tooling, mostly in TypeScript and Python. Most of my
-production work has been on multi-tenant platforms — migration engines, query performance,
-and the security and test coverage that keep them trustworthy.
+production work has been on multi-tenant platforms — migration engines, query performance, and
+the security and test coverage that keep them trustworthy.
 
-Recently I shipped route-binding migrations and API performance work at **Profound**, and I
-maintain **pyxTrace**, an open-source Python runtime tracing toolkit published on PyPI.
-
----
+Recently I shipped route-binding migrations and API performance work at Profound, and I maintain
+[pyxTrace](https://github.com/AbhineetSaha/pyxTrace), an open-source Python runtime tracing
+toolkit published on PyPI.
 
 ## Experience
 
-**Software Engineer, Independent Contractor** &nbsp;·&nbsp; Cooper Square Technologies Inc. (Profound)
-<br/><sub>Remote, India &nbsp;·&nbsp; Jan 2026 – Aug 2026</sub>
+### Software Engineer, Independent Contractor
 
-- Designed and shipped a **route-binding migration engine** that turned destructive URL changes into a confidence-scored, reviewable workflow, preventing broken content bindings.
-- Optimized **PostgreSQL/tRPC APIs** by eliminating N+1 queries, adding indexes and batching, and fixing cross-tenant scans across endpoints with 1.8–6.5s p99 latency.
-- Authored **34% of the test suite**, implemented multi-tenant database scoping, and remediated 2 SSRF vulnerabilities, 1 XSS vector, and 1 CVE.
-- Rebuilt the Media Library via **blue-green migration** and co-led the Sanity-to-ProfoundCMS migration, contributing ~48% of the CMS integration layer.
+**Cooper Square Technologies Inc. (Profound)** · Remote, India · Jan 2026 – Aug 2026
 
----
+`PostgreSQL` `tRPC`
+
+- **Route-binding migration engine** — turned destructive URL changes into a confidence-scored, reviewable workflow, preventing broken content bindings.
+- **API performance** — eliminated N+1 queries, added indexes and batching, and fixed cross-tenant scans across endpoints with 1.8–6.5s p99 latency.
+- **Reliability & security** — authored 34% of the test suite, implemented multi-tenant database scoping, and remediated 2 SSRF vulnerabilities, 1 XSS vector, and 1 CVE.
+- **Platform migrations** — rebuilt the Media Library with a blue-green migration and co-led the Sanity-to-ProfoundCMS migration, contributing ~48% of the CMS integration layer.
 
 ## Featured Projects
 
-**[pyxTrace](https://github.com/AbhineetSaha/pyxTrace)** &nbsp;·&nbsp; [PyPI](https://pypi.org/project/pyxtrace/)
-<br/><sub>Python · Typer · Streamlit · GitHub Actions</sub>
+### [pyxTrace](https://github.com/AbhineetSaha/pyxTrace) · [PyPI](https://pypi.org/project/pyxtrace/)
 
-Open-source Python runtime tracing and visualization toolkit combining bytecode tracing, heap
-profiling, and OS syscall monitoring with real-time visualization. Pluggable Linux/macOS/Windows
-backends, configurable tracing modes to balance depth against overhead, automated PyPI releases,
-and JSONL session recording with offline replay.
+`Python` `Typer` `Streamlit` `GitHub Actions`
 
-**[SafeRoute India](https://github.com/AbhineetSaha/SafeRoute-India)** — accident-aware route scoring
-<br/><sub>FastAPI · PostGIS · LightGBM · Redis · React · Docker</sub>
+Open-source Python runtime tracing and visualization toolkit.
 
-Scores routes on a 0–100 safety scale from Indian government accident datasets, weighing severity,
-distance, recency, and time-of-day risk. PostGIS engine analyzes accident exposure along route
-corridors; a LightGBM pipeline predicts risk from 24 engineered features. 13 REST APIs covering
-route scoring, hotspot analysis, departure-time optimization, and community incident reporting.
+- Combines bytecode tracing, heap profiling, and OS syscall monitoring with real-time visualization
+- Pluggable Linux, macOS, Windows, and fallback backends for graceful cross-platform compatibility
+- Configurable tracing modes to balance profiling depth against runtime overhead
+- Automated PyPI releases via GitHub Actions, plus JSONL session recording with offline replay
 
-**[DocDrift](https://github.com/AbhineetSaha/DocDrift)**
-<br/><sub>FastAPI · Supabase · Next.js &nbsp;·&nbsp; [backend](https://github.com/AbhineetSaha/Backend) · [frontend](https://github.com/AbhineetSaha/Frontend)</sub>
+### [SafeRoute India](https://github.com/AbhineetSaha/SafeRoute-India)
+
+`FastAPI` `PostGIS` `LightGBM` `Redis` `React` `Docker`
+
+Accident-aware route scoring platform built on Indian government accident datasets.
+
+- Scores routes on a 0–100 safety scale, weighing severity, distance, recency, and time-of-day risk
+- PostGIS geospatial engine analyzes accident exposure along route corridors and identifies hotspots
+- LightGBM risk pipeline over 24 engineered features spanning severity, causal factors, temporal patterns, weather, and emergency infrastructure
+- 13 REST APIs for route scoring, hotspot analysis, departure-time optimization, risk forecasting, SOS context, and community incident reporting
+
+### [DocDrift](https://github.com/AbhineetSaha/DocDrift)
+
+`FastAPI` `Supabase` `Next.js`
 
 Document-grounded chat platform — upload PDFs, curate context, and get Gemini-powered answers.
+Split across [backend](https://github.com/AbhineetSaha/Backend) and
+[frontend](https://github.com/AbhineetSaha/Frontend) repositories.
 
-**[Scene Text Reading System](https://github.com/AbhineetSaha/End-to-End-text-reading-system-on-natural-scene-images)**
-<br/><sub>Python · Computer Vision</sub>
+### [Scene Text Reading System](https://github.com/AbhineetSaha/End-to-End-text-reading-system-on-natural-scene-images)
+
+`Python` `Computer Vision`
 
 Capstone project: end-to-end text detection and recognition on natural scene images.
 
----
-
 ## Technical Skills
 
-| | |
+| Area | Technologies |
 | --- | --- |
-| **Languages** | TypeScript · Python · JavaScript · Java · SQL |
-| **Backend** | Node.js · Express.js · FastAPI · tRPC |
-| **Frontend** | React · Next.js · Tailwind CSS |
-| **Databases** | PostgreSQL · PostGIS · Redis · Supabase |
-| **Tools** | Git · GitHub Actions · Docker · Linux · Bun |
-
----
+| Languages | TypeScript · Python · JavaScript · Java · SQL |
+| Backend | Node.js · Express.js · FastAPI · tRPC |
+| Frontend | React · Next.js · Tailwind CSS |
+| Databases | PostgreSQL · PostGIS · Redis · Supabase |
+| Tools | Git · GitHub Actions · Docker · Linux · Bun |
 
 ## Certifications
 
-- **Microsoft Certified: Azure AI Engineer Associate**
-- **Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate**
-
----
+- Microsoft Certified: **Azure AI Engineer Associate**
+- Oracle Cloud Infrastructure 2025 Certified **AI Foundations Associate**
 
 ## Leadership
 
-- **Technical Lead** — Mozilla Open Source Community, VIT-AP. Led a cross-functional team of 12+, contributing to global open-source projects and mentoring juniors on GitHub workflows and software architecture.
-- **Finalist** — Google Dev Sprint '25. Built and presented a scalable prototype under time constraints.
+### Technical Lead — Mozilla Open Source Community, VIT-AP
 
----
+- Led a cross-functional team of 12+ members
+- Contributed to global open-source projects
+- Mentored juniors on GitHub workflows and software architecture
 
-<p align="center">
-  <sub>Thanks for stopping by — feel free to reach out.</sub>
-</p>
+### Finalist — Google Dev Sprint '25
+
+- Built and presented a scalable prototype under time constraints
+- Judged on technical execution, creativity, and design-led problem solving
